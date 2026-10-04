@@ -10,7 +10,7 @@ This section of the lab models a cloud service provider (AS 100), something like
 
 ## Topology Overview
  
-### Cloud Service Provider (AS 100, 45.10.10.0/24)
+### Cloud Service Provider (AS 100)
  
 - **Access layer (C1-A1, C1-A2):** L2 switches responsible for carrying tenant VLANs to hosts.
 - **Distribution layer (C1-DS1, C1-DS2):** Multi-layer switches acting as tenant gateways, with VRF-aware SVIs with GLBP to provide High availability and Redundancy.
